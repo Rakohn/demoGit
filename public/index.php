@@ -54,7 +54,7 @@ $patterns = [
     $phonePattern,
 ];
 
-$source = 'HUMBERT BEATRICE CV.docx';
+$source = 'CV/HUMBERT BEATRICE CV.docx';
 $parser = new \Application\Services\Doc2Text($source);
 
 //in somme situation, regexp pattern used by componant can throw an error/warning. So we suppress it explicitly
