@@ -1,0 +1,20 @@
+{
+    "name": "jerem/poc-pdf",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jérémy GUERIBA",
+            "email": "jeremy.gueriba@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "smalot/pdfparser": "^2.8",
+        "phpoffice/phpword": "^1.2"
+    }
+}
